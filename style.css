@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f9fa;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.08);
+}
+h1 {
+  color: #0080ff;
+  margin-bottom: 8px;
+}
+.info, .contact, .payment {
+  margin-bottom: 24px;
+}
+button#startVenting {
+  background: #0080ff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+button#startVenting:disabled {
+  background: #aaa;
+  cursor: default;
+}
+.timer {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 16px;
+}
+a {
+  color: #0080ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
